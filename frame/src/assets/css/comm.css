@@ -1,0 +1,22 @@
+/* 通用css样式 */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.mint-tabbar>.mint-tab-item{
+  color: #000 !important;
+}
+.mint-tabbar>.mint-tab-item{
+  background-color: #fff !important;
+}
+.mint-tab-item{
+  padding: 2px 0 5px 0 !important;
+}
+.mint-header{
+  background-color: #fff !important;
+  color: #000 !important;
+}
+.mint-header-title{
+  font-size: 18px !important;
+}

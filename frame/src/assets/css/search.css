@@ -1,0 +1,31 @@
+.sec{
+  padding: 10px;
+}
+#input{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.input{
+  display: inline-block;
+  margin-top: 10px;
+  border: 0;
+  width: 88%;
+  outline: none;
+  line-height: 30px;
+  background-color: #f2f3f4;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  padding-left: 40px;
+}
+#input img{
+  position: absolute;
+  bottom: 5px;
+  left: 20px;
+}
+#input>span{
+  margin-left: 6px;
+  color: #555;
+}
