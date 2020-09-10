@@ -56,17 +56,18 @@
       </div>
     <!-- 购票人信息 -->
       <div class="spectator">
-        <ul>
-          <li>姓名</li>
-          <li>身份证号</li>
-          <li>手机号</li>
-        </ul>
-        <ul>
-          <!-- 动态获取 -->
-          <li>张三</li>
-          <li>6105021998xxxxx42X</li>
-          <li>18254215245</li>
-        </ul>
+        <p>取票人信息</p>
+        <div class="spectator_flex">
+         <ul>
+           <li>姓名</li>
+           <li>手机号</li>
+         </ul>
+          <ul>
+           <!-- 动态获取 -->
+           <li>张三</li>
+           <li>18254215245</li>
+         </ul>
+        </div>
       </div>
     <!--服务说明 --> 
       <div class="serve">
@@ -189,7 +190,7 @@
     margin-bottom:10px;
     font-weight: bold;
   }
-  .notice,.spectator{
+  .notice,.spectator_flex{
     display: flex;
   }
   ul{list-style: none;margin-right:34px;}
@@ -206,6 +207,11 @@
     background-color:white;
     padding: 10px;
     margin-bottom:10px;
+  }
+  .spectator>p{
+     font-size:14px;
+    margin-bottom:10px;
+    font-weight: bold;
   }
    .spectator>ul{
      margin-right:58px;
