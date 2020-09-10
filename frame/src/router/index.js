@@ -7,12 +7,12 @@ import Index from "../views/Index.vue";
 import Tabbar from "../views/Tabbar.vue";
 import Me from "../views/Me.vue";
 import Search from "../views/Search.vue";
-import OrderDetaile from "../views/OrderDetaile.vue"
+import OrderDetail from "../views/OrderDetail.vue"
 
 Vue.use(VueRouter);
 
 const routes = [
-  {path:"/orderdetaile",component:OrderDetaile},
+  {path:"/orderdetail",component:OrderDetail},
   {path:"/search",component:Search},
   { path: "/me", component: Me },
   { path: "/tabbar", component: Tabbar },
