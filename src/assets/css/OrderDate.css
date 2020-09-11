@@ -1,0 +1,124 @@
+/* 订单选择日期页面样式 */
+/* 日期选择样式 */
+.date{
+	width: 100%;
+	background-color: #fff;
+	border: none;outline: 0;
+	display: flex;
+	position: fixed;
+	top: 0;right: 0;left: 0; z-index: 999;
+	border-bottom:1px solid #e8e8e8;
+}
+.date img{margin-left: 15px;margin-top: 10px;}
+.date p{
+	display: inline-block;
+	margin-top: 12px;
+	margin-left: 12px;
+	font-size: 20px;
+	color: #000000;
+}
+.orderDate{background-color: #E8E8E8;}
+/* 门票种类 */
+.classify,.warning,.time{
+	width: 100%;
+	padding: 10px;
+	background-color: #fff;
+}
+.ticket{margin-bottom:10px;margin-top: 40px;}
+.adult{margin-right:20px;}
+.warning{
+	display: flex;
+	justify-content: space-between;
+	font-size: 14px;
+	margin-top: 10px;
+	padding: 10px;
+}
+.warning>div{margin-left: 2px;}
+.use_warning{color: #42B983;}
+.use_warning_img{margin-left: 5px; margin-right: 5px;}
+.time{
+	margin:10px 0px 10px;
+}
+.use_date{
+	height: 30px;
+	line-height: 30px;
+	border-bottom: 1px solid #e8e8e8;
+}
+/* 日历表样式开始 */
+.month{margin: 10px 10px 10px;}
+.week_header{
+	font-size: 14px;
+	text-align: center;
+	line-height: 20px;
+	border-bottom: 1px solid #e8e8e8;
+	border-top: 1px solid #e8e8e8;
+}
+.week_header div{
+	display: inline-block;
+	margin-left: -10px;
+	width: 60px;
+}
+.everyday{
+	display: inline-block;
+	width: 45px;height: 50px;
+	text-align: center;
+	line-height: 50px;
+	margin-left: 4px;
+	position: relative;
+	font-size: 18px;
+	/* font-weight: 500; */
+}
+/* 日历表上选中谁谁变背景色 */
+/* .active{background-color: orange;} */
+.everyday_price{
+	position: absolute;
+	top: 20px;left: 10px;
+	font-size: 10px;
+	color: #555555;
+}
+/* 日历表样式结束 */
+/* 购买数量 */
+.order_buy{background-color: #fff;margin-bottom: 56px;}
+.num_tit{
+	margin-left: 10px;
+	margin-top: 5px;
+}
+.kc>span{color: #A9ACB1;}
+.order_num,.sub,.add{
+	width: 30px;height: 30px;
+	outline: 0;
+	border: none;
+}
+.order_num{
+	text-align: center;
+}
+.buy_action_count{
+	display: flex;
+	justify-content: space-between;
+	padding: 10px 5px;
+	border-bottom: 1px solid #e8e8e8;
+}
+.sub{margin-left: 10px;}
+.sub,.add{border-radius: 5px;}
+/* 立即购买 */
+.zf{
+	background-color: #fff;
+	display: flex;
+	justify-content: space-between;
+	position: fixed;
+	left: 0;right: 0;bottom: 0;
+	margin-top: 50px;
+}
+.price{
+	line-height: 50px;
+	color: orangered;
+	font-size: 20px;
+	padding-left: 10px;
+}
+.buy_action{
+	display: inline-block;
+	background-image: linear-gradient(to left,red,orange);
+	color: #fff;font-size: 20px;
+	border: none;
+	padding:15px 80px;
+}
