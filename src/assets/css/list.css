@@ -1,0 +1,41 @@
+.tit {
+  color: #333;
+  text-align: center;
+  border: 1px solid #000;
+}
+
+.tit img {
+  display: flex;
+  position: absolute;
+  top: 15px;
+}
+
+.search {
+  position: relative;
+  margin-top: 13px;
+  float: left;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  border: 1px solid #000;
+}
+
+.search input {
+  float: left;
+  border: 0;
+  width: 88%;
+  outline: none;
+  line-height: 25px;
+  background-color: #f2f3f4;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  padding-left: 50px;
+}
+
+.search img {
+  position: absolute;
+  float: left;
+  left: 10%;
+  top: 3px;
+}
