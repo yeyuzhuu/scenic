@@ -52,18 +52,6 @@ export default {
       selected:'me'
     }
   },  
-  watch:{
-    //监听底部选项卡的变化
-    selected(value){
-        switch(value){
-           case 'index':
-             this.$router.push('/');
-             break;
-           case 'me':
-             this.$router.push('/me');
-             break;
-        }
-    }
-  }
+  
 }
 </script>
