@@ -8,7 +8,7 @@ import Tabbar from "../views/Tabbar.vue";
 import Me from "../views/Me.vue";
 import Search from "../views/Search.vue";
 import OrderDetail from "../views/OrderDetail.vue";
-import OrderList from "../views/OrderList.vue"
+import OrderList from "../views/OrderList.vue";
 
 
 Vue.use(VueRouter);
