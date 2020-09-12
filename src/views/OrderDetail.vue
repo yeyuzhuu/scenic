@@ -1,12 +1,14 @@
 <template>
   <div class="container">
     <!-- 导航栏 -->
+    <router-link to="/orderlist">
      <div class="header1">
       <img src="../assets/img/back4.png" alt="">
       <span>订单详情</span>
-    </div>
-    <div class="mein">
+     </div>
+    </router-link>
     <!-- 使用凭证 -->
+    <div class="mein">
     <div class="cost_voucher">
        <div class="cost">
          <p>已发货</p>
@@ -38,18 +40,20 @@
             <!-- 动态获取 -->
             <li>成人票</li>
             <li>卖家</li>
+            <li>订单编号</li>
           </ul>
           <ul>
             <!-- 动态获取 -->
             <li>202-09-10 星期四</li>
             <!-- 动态获取 -->
-            <li>仅2020-09-10当天有效</li>
+            <li>仅当天有效</li>
             <li>凭数字码换票直接入园</li>
             <li>凭数字码换票直接入园</li>
             <li>景区售票处（取票时间：9:00-16:30)</li>
             <li>景区入口</li>
             <li>￥45 x 1份</li>
             <li>西安新浪潮国旅</li>
+            <li>1237661066151117531</li>
           </ul>
         </div>
         </div>
@@ -153,7 +157,7 @@
     background-color:white;
     position: absolute;
     top:65px;
-    left:10px;
+    left:2.5%;
     padding:10px;
   }
   .voucher>p:first-child{
@@ -178,7 +182,7 @@
   }
   .detaile{
     width:95%;
-    height:265px;
+    height:273px;
     margin:0 auto;
     border-radius: 5px;
     background-color:white;
@@ -257,4 +261,5 @@
     .draw>div>img,.enter>div>img{
       width:15px;
     }
+    a{text-decoration: none; color:black}
 </style>
