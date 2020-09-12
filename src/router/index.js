@@ -21,11 +21,8 @@ import OrderList from "../views/OrderList.vue";
 Vue.use(VueRouter);
 
 const routes = [
-//   {path:"/select", component: Select},
   { path: "/list", component: List },
-//   { path: "/search", component: Search },
   {path:"/orderlist",component:OrderList},
-//   {path:"/orderdetail",component:OrderDetail},
   {path:"/search",component:Search},
   { path: "/me", component: Me },
   { path: "/tabbar", component: Tabbar },
