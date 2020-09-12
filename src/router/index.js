@@ -7,19 +7,14 @@ import Index from "../views/Index.vue";
 import Tabbar from "../views/Tabbar.vue";
 import Me from "../views/Me.vue";
 import Search from "../views/Search.vue";
-import List from "../views/list.vue";
 import OrderDetail from "../views/OrderDetail.vue";
+import OrderList from "../views/OrderList.vue"
+
 
 Vue.use(VueRouter);
 
-// 测试
-import Select from "../components/mint/select.vue"
-
-
 const routes = [
-  {path:"/select", component: Select},
-  { path: "/list", component: List },
-  { path: "/search", component: Search },
+  {path:"/orderlist",component:OrderList},
   {path:"/orderdetail",component:OrderDetail},
   {path:"/search",component:Search},
   { path: "/me", component: Me },
