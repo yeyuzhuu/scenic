@@ -4,23 +4,28 @@ import Home from "../views/Home.vue";
 
 // 引入Index
 import Index from "../views/Index.vue";
+
 import Tabbar from "../views/Tabbar.vue";
+
 import Me from "../views/Me.vue";
+
 import List from "../views/list.vue";
+
 import Search from "../views/Search.vue";
+
 import OrderList from "../views/OrderList.vue";
 
 // 测试
-import Select from "../components/mint/select.vue"
+// import Select from "../components/mint/select.vue"
 
 Vue.use(VueRouter);
 
 const routes = [
-  {path:"/select", component: Select},
+//   {path:"/select", component: Select},
   { path: "/list", component: List },
-  { path: "/search", component: Search },
+//   { path: "/search", component: Search },
   {path:"/orderlist",component:OrderList},
-  {path:"/orderdetail",component:OrderDetail},
+//   {path:"/orderdetail",component:OrderDetail},
   {path:"/search",component:Search},
   { path: "/me", component: Me },
   { path: "/tabbar", component: Tabbar },
